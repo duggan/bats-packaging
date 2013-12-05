@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Ross Duggan <ross.duggan@acm.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: https://github.com/sstephenson/bats
+
 Package: bats
 Depends: bash
 Architecture: any
