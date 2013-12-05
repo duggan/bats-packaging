@@ -5,10 +5,8 @@ Maintainer: Ross Duggan <ross.duggan@acm.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 Homepage: https://github.com/sstephenson/bats
-#Vcs-Git: git@github.com:sstephenson/bats.git
-#Vcs-Browser: https://github.com/sstephenson/bats
-Depends: bash
 Package: bats
+Depends: bash
 Architecture: any
 Description: Bash Automated Testing System
  Bats is a TAP-compliant testing framework for Bash.
