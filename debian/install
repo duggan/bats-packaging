@@ -1,0 +1,5 @@
+libexec/bats usr/lib/bats
+libexec/bats-exec-suite /usr/lib/bats
+libexec/bats-exec-test /usr/lib/bats
+libexec/bats-format-tap-stream /usr/lib/bats
+libexec/bats-preprocess /usr/lib/bats
