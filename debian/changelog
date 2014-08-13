@@ -1,3 +1,20 @@
+bats (0.4.0) precise; urgency=low
+
+  * Improved the display of failing test cases. Bats now shows the
+    source code of failing test lines, along with full stack traces
+    including function names, filenames, and line numbers.
+  * Improved the display of the pretty-printed test summary line to
+    include the number of skipped tests, if any.
+  * Improved the speed of the preprocessor, dramatically shortening test
+    and suite startup times.
+  * Added support for absolute pathnames to the `load` helper.
+  * Added support for single-line `@test` definitions.
+  * Added bats(1) and bats(7) manual pages.
+  * Modified the `bats` command to default to TAP output when the `$CI`
+    variable is set, to better support environments such as Travis CI.
+
+ -- Ross Duggan <ross.duggan@acm.org>  Wed, 13 Aug 2014 22:38:00 +0100
+
 bats (0.3.1-1) precise; urgency=low
 
   * Packaging.

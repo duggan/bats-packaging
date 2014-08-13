@@ -1,7 +1,7 @@
 Source: bats
 Section: devel
 Priority: optional
-Maintainer: Ross Duggan <ross.duggan@acm.org>
+Maintainer: Sam Stephenson <sstephenson@gmail.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 
